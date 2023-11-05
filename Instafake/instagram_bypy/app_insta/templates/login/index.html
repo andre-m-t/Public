@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" href="{% static 'icons/instagram-color-svgrepo-com.svg' %}" >
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    <div class="base">
+        <div class="cabecalho">
+            <p>Instagram</p>
+        </div>
+        <form action="post">
+            <div class="entradas">
+                <input class="input" type="text" name="user" id="user" placeholder="Phone number, username or e-mail">
+            </div>
+            <div class="entradas">
+                <input class="input" type="password" name="pwd" id="pwd" placeholder="Password">
+            </div>
+            
+            <div class="entradas">
+                <button class="botao" type="submit" >Log In</button>
+            </div>
+            <div class="entradas">
+                <p class="linha-horizontal"></p>
+                <nav class="or">OR</nav>
+                <p class="linha-horizontal"></p>
+            </div>
+        </form>
+        <div class="nolink">
+            <a class="facebook" href=""><img src="{%static 'icons/facebook-color-svgrepo-com.svg' %}" align="bottom" width="15" height="15" alt=""><span class="textoface" >Log in with Facebook</span></a>
+            <a class="forgot facebook" href="">Forgot password?</a>
+        </div>
+    </div>
+</body>
+</html>

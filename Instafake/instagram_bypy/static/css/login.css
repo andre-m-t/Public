@@ -1,0 +1,81 @@
+.base{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(182, 179, 179);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.textoface{
+    margin-left: 10px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 10, 133);
+    text-decoration: none;
+    padding-left: 10px;
+}
+.forgot{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 43, 43);
+    font-size: 12px;
+}
+.cabecalho{
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.input{
+    border: 1px solid rgb(218, 213, 213);
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.botao{
+    margin-top: 10px;
+    border: 0px solid rgb(0, 140, 255);
+    border-radius: 8px;
+    background-color: rgb(0, 140, 255);
+    width: 310px;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nolink{
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto padrão */
+    cursor: default; /* Define o cursor do mouse como padrão */
+}
+.or{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.linha-horizontal{
+    border-bottom: 1px solid #000;
+}
+.entradas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+}
+.outra{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
